@@ -42,7 +42,7 @@ def classify(status_code):
     elif status_code >= 500 and status_code <= 599:
         return "server error"
     else:
-        "unknown"
+        return "unknown"
 
 
 def describe(status_code):
